@@ -1,8 +1,15 @@
 package com.repositorio.cadastrousuario.cadastro.entity;
 
 import jakarta.persistence.*;
+import lombok.*;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "usuario")
 @Entity
+@Builder
 public class UserEntity {
 
     @Id
@@ -18,10 +25,9 @@ public class UserEntity {
     @Column(name = "documento", nullable = false)
     private String document;
 
-    /*
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "endereco_id", referencedColumnName = "id")
     private AddressEntity address;
-    */
+
 
 }
