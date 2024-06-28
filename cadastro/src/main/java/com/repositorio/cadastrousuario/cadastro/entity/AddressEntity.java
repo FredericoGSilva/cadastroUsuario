@@ -16,9 +16,12 @@ public class AddressEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+<<<<<<< HEAD
     @Column(name = "cidade")
     private String city;
 
+=======
+>>>>>>> e7c02a54a149b16a0265205725a48160c1c76c26
     @Column(name = "rua")
     private String street;
 
@@ -26,7 +29,11 @@ public class AddressEntity {
     private String number;
 
     @Column(name = "bairro")
+<<<<<<< HEAD
     private String neighborhood;
+=======
+    private String Neighborhood;
+>>>>>>> e7c02a54a149b16a0265205725a48160c1c76c26
 
     @Column(name = "complemento")
     private String complement;
