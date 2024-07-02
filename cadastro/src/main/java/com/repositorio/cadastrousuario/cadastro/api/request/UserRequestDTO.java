@@ -1,6 +1,5 @@
-package com.repositorio.cadastrousuario.cadastro.request;
+package com.repositorio.cadastrousuario.cadastro.api.request;
 
-import com.repositorio.cadastrousuario.cadastro.entity.AddressEntity;
 import lombok.*;
 
 @Getter
@@ -16,5 +15,5 @@ public class UserRequestDTO {
 
     private String document;
 
-    private AddressEntity address;
+    private AddressRequestDTO address;
 }

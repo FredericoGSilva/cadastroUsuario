@@ -2,10 +2,7 @@ package com.repositorio.cadastrousuario.cadastro.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-<<<<<<< HEAD
 import lombok.Builder;
-=======
->>>>>>> e7c02a54a149b16a0265205725a48160c1c76c26
 
 @Getter
 @Setter

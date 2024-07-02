@@ -1,6 +1,5 @@
-package com.repositorio.cadastrousuario.cadastro.response;
+package com.repositorio.cadastrousuario.cadastro.api.response;
 
-import com.repositorio.cadastrousuario.cadastro.entity.AddressEntity;
 import lombok.*;
 
 @Getter

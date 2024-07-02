@@ -1,6 +1,5 @@
-package com.repositorio.cadastrousuario.cadastro.request;
+package com.repositorio.cadastrousuario.cadastro.api.response;
 
-import jakarta.persistence.Column;
 import lombok.*;
 
 @Getter
@@ -8,7 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class AddressRequestDTO {
+public class AddressResponseDTO {
+
+    private Long id;
 
     private String city;
 
